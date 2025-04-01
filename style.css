@@ -1,4 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Class Selector - Styling a Box */
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ID Selector - Styling an Image */
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    display: block;
+    margin: 0 auto;
 }
